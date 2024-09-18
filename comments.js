@@ -8,4 +8,4 @@ var comments = require('./comments.js');
 // Create server
 var server = http.createServer(function (req, res) {
     // Get path
-    var pathname = url.parse(req.url).pathname;
+    var pathname = url.parse(req.url).pathname;})
